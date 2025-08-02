@@ -5,9 +5,7 @@ import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
 import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
-import SelectContent from "./SelectContent";
 import MenuContent from "./MenuContent";
-import CardAlert from "./CardAlert";
 import OptionsMenu from "./OptionsMenu";
 
 const drawerWidth = 240;
@@ -36,12 +34,19 @@ export default function SideMenu() {
     >
       <Box
         sx={{
-          display: "flex",
           mt: "calc(var(--template-frame-height, 0px) + 4px)",
-          p: 1.5,
+          p: 2.5,
+          fontWeight: "bold",
+          fontSize: 18,
+          letterSpacing: 1,
         }}
       >
-        <SelectContent />
+        <div>
+          <span style={{ color: "#3767f9", fontWeight: 700, marginRight: 4 }}>
+            VK
+          </span>
+          <span>DASHBOARD</span>
+        </div>
       </Box>
       <Divider />
       <Box
@@ -53,7 +58,7 @@ export default function SideMenu() {
         }}
       >
         <MenuContent />
-        <CardAlert />
+        {/* <CardAlert /> */}
       </Box>
       <Stack
         direction="row"
