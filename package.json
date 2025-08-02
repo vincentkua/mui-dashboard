@@ -19,7 +19,6 @@
     "@mui/x-charts": "^8.9.2",
     "@mui/x-data-grid": "^8.9.2",
     "@mui/x-date-pickers": "^8.9.2",
-    "@mui/x-date-pickers-pro": "^8.9.2",
     "@mui/x-tree-view": "^8.9.2",
     "@react-spring/web": "^10.0.1",
     "dayjs": "^1.11.13",
